@@ -1,0 +1,155 @@
+.movie-container {
+    background-color: rgb(250, 248, 248);
+    padding: 50px;
+}
+
+.movie-container h1 {
+    text-align: center;
+}
+
+.m {
+    margin: 1rem;
+}
+
+.m h2 {
+    text-align: center;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+    border: 0.1px solid #d2e8ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.movie-item:hover {
+    background-color: #d2e8ff;
+    transition: 0.2s;
+}
+
+
+.movie-item-image {
+    /* border: 0.1px solid #d2e8ff; */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.movie-item-image img {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.movie-item-info {
+    /* border: 0.1px solid #d2e8ff; */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.movie-item-info p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.remove {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff0c0c;;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.remove:hover,
+.remove:active,
+.remove:focus {
+    cursor: pointer;
+    background: #ff0000;
+    color: #d6d6d6;
+    outline: 0;
+}
+
+.bottom-group {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: #0CAFFF;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+    cursor: pointer;
+    background: #007FFF;
+    color: #d6d6d6;
+    outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .movie-item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px;
+        
+    }
+
+    .remove {
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .first-block {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-group {
+        flex-direction: column;
+    }
+
+    .movie-item-image img {
+        width: 45vw;
+        height: 60vw;
+    }
+
+    .fixed-button {
+        display: block;
+    }
+}

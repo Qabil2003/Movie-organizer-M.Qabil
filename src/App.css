@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    background-color: #F0F8FF;
+    height: max-content;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
