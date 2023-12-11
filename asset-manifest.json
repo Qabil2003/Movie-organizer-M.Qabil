@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Movie-organizer-M-Qabil/static/css/main.0f4d45a9.css",
+    "main.js": "/Movie-organizer-M-Qabil/static/js/main.9e0e5c0a.js",
+    "index.html": "/Movie-organizer-M-Qabil/index.html",
+    "main.0f4d45a9.css.map": "/Movie-organizer-M-Qabil/static/css/main.0f4d45a9.css.map",
+    "main.9e0e5c0a.js.map": "/Movie-organizer-M-Qabil/static/js/main.9e0e5c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4d45a9.css",
+    "static/js/main.9e0e5c0a.js"
+  ]
+}
